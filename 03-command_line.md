@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> 1. `ls` - show current directory files
+> 2. `cd` - change directory
+> 3. `pwd` - show current working directory path
+> 4. `mkdir` - create directory
+> 5. `rm` - delete directory or file
+> 6. `touch` - create new file
+> 7. `cp` - copy file
+> 8. `mv` - move file from one path to another, or rename file
+> 9. `chmod` - change permissions granted to a file
+> 10. `ls -a` - list all files under current directory, including hidden ones
 
 ---
 
@@ -35,7 +44,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> - `ls`  - list files under current directory
+> - `ls -a`  - list files under current directory, including hidden files
+> - `ls -l`  - list files under current directory in long format
+> - `ls -lh` - list files under current directory in long format using unit suffixes to reduce number of digits to three or less
+> - `ls -lah` - list files (including hidden ones) under current directory in long format using unit suffixes to reduce number of digits to three or less
+> - `ls -t` - list files under current directory sort by time modified first then by lexicographical order 
+> - `ls -Glp`  - list files under current directory with colorized output, in long format, and with slash after file name if file is a directory
+ 
 
 ---
 
@@ -43,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> 1.`ls -a`  
+> 2. `ls -lh`  
+> 3. `ls -t`  
+> 4. `ls -p`  
+> 5. `ls -Sl`  
 
 ---
 
@@ -51,7 +71,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> Xargs allow one to build an execution pipeline from a standard input. 
+> For example: 
+> > find /docs -name *.tmp | xargs rm
+> The xample deletes all files with tmp extension under the docs directory
 
  
 
