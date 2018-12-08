@@ -73,7 +73,7 @@ What does `xargs` do? Give an example of how to use it.
 
 > Xargs allow one to build an execution pipeline from a standard input. 
 > For example: 
-> > find /docs -name *.tmp | xargs rm
+> `find /docs -name *.tmp | xargs rm`
 > The xample deletes all files with tmp extension under the docs directory
 
  
