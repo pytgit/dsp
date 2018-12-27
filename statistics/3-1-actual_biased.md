@@ -14,5 +14,5 @@ thinkplot.Pmfs([child_pmf, biased])
 thinkplot.Config(xlabel='# children in family', axis=axis)
 ````
 
-![Plot of actual and biased disitributions](./img/plot.png)
+![Plot of actual and biased disitributions](../img/plot.png)
 
